@@ -11,7 +11,7 @@
 				width: 400px;
 				line-height: 100px;
 				background-color: yellowgreen;
-				color: azure;
+				color: black;
 				text-align: center;
 				transition: all ;
 			}
@@ -20,16 +20,6 @@
 	<body>
 		<div id="Githubbox">Github</div>
 
-		<script>
-			Githubbox.onclick = function () {
-				this.innerText = '稍等一下3秒鐘  等我轉跳．．．'
-				this.className = 'change'
-        		
-				// 使用setTimeout延遲3秒鐘後執行window.location.href
-        		setTimeout(function () {
-            		window.location.href = 'https://github.com/Sanby9837';
-        		}, 3000);  // 3000毫秒 = 3秒
-			}
-		</script>
+		<script src="index.js"></script>
 	</body>
 </html>
