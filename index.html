@@ -20,6 +20,45 @@
 	</head>
 	<body>
 		<div id="Githubbox">Github</div>
-		<script src="index.js"></script>
+		<div id="div1">divDef</div>
+		<div id = container>
+			<p>pppDef</p>
+			<p>pppDef</p>
+			<p>pppDef</p>
+			<p>pppDef</p>
+		</div>
+		
+		<!-- <script src="index.js"></script> -->
+		<script>
+
+			Githubbox.onclick = function () {
+    		this.innerText = '轉跳到 Sanby9837 Git Hub 中...'
+    		this.className = 'change'
+    		// 使用setTimeout延遲3秒鐘後執行window.location.href
+    		setTimeout(function () {
+        		window.location.href = 'https://github.com/Sanby9837';
+    			}, 3000);  // 3000毫秒 = 3秒
+			}
+
+
+			var divDef = document.getElementById('div1')
+			console.log(divDef)
+			divDef.textContent = '我要把文字換掉'
+
+			var contents = document.querySelectorAll('#container p')
+			console.log(contents)
+
+			var backEndContent = [
+				'賴瑩珊',
+				19950527,
+				'Girl',
+				'Cute'
+			]
+
+			for (const key in contents) {
+				contents[key].textContent = backEndContent[key]
+			}
+		</script>
+		
 	</body>
 </html>

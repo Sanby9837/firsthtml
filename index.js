@@ -8,11 +8,9 @@ Githubbox.onclick = function () {
     }, 3000);  // 3000毫秒 = 3秒
 }
 
-var block = document.getElementById('block')
-		console.log(block)
-		// block.textContent = 'NEW ford'
 
 
+// ----------------------------------------
 // var sum = 1+3
 // console.log(sum)
 
@@ -29,7 +27,7 @@ var block = document.getElementById('block')
 // console.log("外框雙引號，中間搭配'單引號'也可以正常顯示字串")
 // console.log('外框單引號，中間搭配"雙引號"也可以正常顯示字串')
 
-
+// ----------------------------------------
 // function getSum(start,end){
 // 	console.log('Start')
 // 	var sum = 0
@@ -42,7 +40,7 @@ var block = document.getElementById('block')
 
 // var sumShow = getSum(1,20)
 // console.log(sumShow)
-
+// ----------------------------------------
 
 // function getSumPick(start,end,pick){
 //     var sum = 0
@@ -63,7 +61,7 @@ var block = document.getElementById('block')
 
 // console.log(result)
 
-
+// ----------------------------------------
 // var noArr = [10,20,30,40,50]
 // console.log(noArr.length)
 // console.log(noArr[0])
